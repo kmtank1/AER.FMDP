@@ -1,4 +1,4 @@
-package AER.FMDP;
+package functionLibrary;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
