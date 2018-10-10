@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Step 1 = Login to application at : http://pos.shortcutssoftwareqa.com and loging in with correct credentails]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 = Opening Menu & Navigating to Tools > Client Import page]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 = Before download new template, delete existing files from directory then click on Download Template button]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 = Verifying that template is downloaded  successfully and contains correct header]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 = Write data in to downloaded CSV file at sepecifc row number and verify client details added in template]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 = Upload updated template to create new client]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24145" started-at="2018-10-05T09:05:02Z" finished-at="2018-10-05T09:05:26Z">
+  <suite name="RegressionSuit" duration-ms="54649" started-at="2018-02-27T06:54:40Z" finished-at="2018-02-27T06:55:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24145" started-at="2018-10-05T09:05:02Z" finished-at="2018-10-05T09:05:26Z">
-      <class name="AER.FMDP.AppTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:AER.FMDP.AppTest@3532ec19]" name="beforeClass" is-config="true" duration-ms="7917" started-at="2018-10-05T09:05:02Z" finished-at="2018-10-05T09:05:10Z">
+    <test name="RunningOnChrome" duration-ms="54649" started-at="2018-02-27T06:54:40Z" finished-at="2018-02-27T06:55:35Z">
+      <class name="au.com.shortcuts.live.tests.tools.ClientImportTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:au.com.shortcuts.live.tests.tools.ClientImportTests@2b98378d]" name="setUp" is-config="true" duration-ms="13956" started-at="2018-02-27T12:24:40Z" finished-at="2018-02-27T12:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:AER.FMDP.AppTest@3532ec19]" name="openMyBlog" duration-ms="15141" started-at="2018-10-05T09:05:10Z" finished-at="2018-10-05T09:05:25Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:au.com.shortcuts.live.tests.tools.ClientImportTests@2b98378d]" name="beforeMethod" is-config="true" duration-ms="122" started-at="2018-02-27T12:24:54Z" finished-at="2018-02-27T12:24:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openMyBlog -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:AER.FMDP.AppTest@3532ec19]" name="afterClass" is-config="true" duration-ms="1023" started-at="2018-10-05T09:05:25Z" finished-at="2018-10-05T09:05:26Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="client_Import()[pri:1, instance:au.com.shortcuts.live.tests.tools.ClientImportTests@2b98378d]" name="client_Import" duration-ms="39558" started-at="2018-02-27T12:24:54Z" finished-at="2018-02-27T12:25:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 = Login to application at : http://pos.shortcutssoftwareqa.com and loging in with correct credentails]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 = Opening Menu & Navigating to Tools > Client Import page]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 = Before download new template, delete existing files from directory then click on Download Template button]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 = Verifying that template is downloaded  successfully and contains correct header]]>
+            </line>
+            <line>
+              <![CDATA[Step 5 = Write data in to downloaded CSV file at sepecifc row number and verify client details added in template]]>
+            </line>
+            <line>
+              <![CDATA[Step 6 = Upload updated template to create new client]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- client_Import -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:au.com.shortcuts.live.tests.tools.ClientImportTests@2b98378d]" name="tearDown" is-config="true" duration-ms="940" started-at="2018-02-27T12:25:34Z" finished-at="2018-02-27T12:25:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- AER.FMDP.AppTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- au.com.shortcuts.live.tests.tools.ClientImportTests -->
+    </test> <!-- RunningOnChrome -->
+  </suite> <!-- RegressionSuit -->
 </testng-results>

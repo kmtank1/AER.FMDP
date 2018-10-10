@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuit"  thread-count="2" parallel="tests">
+
+  <test name="RunningOnChrome" thread-count="4" parallel='classes'>
+	  <parameter name="node" value="local" /> 		<!-- node value can be :  local or node url -->
+	  <parameter name="browser" value="chrome" />	<!-- browser value can be : chrome ,ie ,firefox -->
+	    <classes>
+		   <class name="au.com.FMDP.live.tests.login.LoginTests"/> 
+<!-- 	       <class name="au.com.shortcuts.live.tests.rosters.RostersActivityTests"/> 
+	       <class name="au.com.shortcuts.live.tests.employee.EmployeeTests"/>
+	       <class name="au.com.shortcuts.live.tests.product.ProductTests"/>
+	       <class name="au.com.shortcuts.live.tests.service.ServiceTests"/>
+	       <class name="au.com.shortcuts.live.tests.supplier.SupplierTests"/>
+	       <class name="au.com.shortcuts.live.tests.product.CategoryTests"/>
+	       <class name="au.com.shortcuts.live.tests.pos.PaymentTypeTests"/>
+	       <class name="au.com.shortcuts.live.tests.pos.ReceiptSetupTests"/>
+	       <class name="au.com.shortcuts.live.tests.appointment.TaskTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.TaxTests"/>
+	       <class name="au.com.shortcuts.live.tests.appointment.ContactSetupTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.RegionalSettingsTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.ConnectionSettingsTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.BusinessSetupTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.RolesTests"/>
+	       <class name="au.com.shortcuts.live.tests.settings.CustomFieldTests"/>
+	       <class name="au.com.shortcuts.live.tests.appointment.AppointmentBookTests"/>
+	       <class name="au.com.shortcuts.live.tests.rosters.RostersTests"/>
+	       <class name="au.com.shortcuts.live.tests.tools.ClientImportTests"/> -->
+	    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
